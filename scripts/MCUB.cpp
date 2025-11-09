@@ -282,7 +282,7 @@ void Station::handle_rt_exchange()
 
 void Station::handle_clear_wait()
 {
-    // Simple delay to let the robot fully clear the bay
+    // Simple delay to let the robot fully clear the station
     if (hw::now_ms() - clear_start_ms_ >= cfg::CLEAR_DELAY_MS)
     {
         hw::log("Station clear; resume beacons");

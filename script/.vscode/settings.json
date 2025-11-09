@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.cpp": "objective-cpp",
+        "chrono": "cpp"
+    }
+}
